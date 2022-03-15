@@ -56,3 +56,7 @@ Route::get('/news', function () {
 Route::get('/shop', function () {
     return view('Shop');
 })->name('Shop');
+
+Route::get('/visadc', function () {
+    return view('VisaDC');
+})->name('VisaDC');
