@@ -1,5 +1,75 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
 .topheader {
-  height: 25px;
   background-color: dodgerblue;
   color: white;
+}
+.topheader .row {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 10px 0;
+}
+.topheader .row .col-2 {
+  width: 20%;
+  margin: 0;
+  font-weight: bold;
+}
+
+.bottom-header {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  align-items: center;
+  padding: 20px 0;
+}
+.bottom-header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 15px;
+  width: 800px;
+  font-weight: bold;
+}
+.bottom-header ul a {
+  text-decoration: none;
+  color: black;
+}
+.bottom-header figure {
+  width: 100px;
+}
+.bottom-header figure img {
+  height: 75px;
+}
+.bottom-header input {
+  padding: 5px 5px;
+  border: none;
+  background-color: #d4d3d3;
+}
+.bottom-header input :focus {
+  outline-width: 0;
+}
+.bottom-header input ::-moz-placeholder {
+  color: black;
+}
+.bottom-header input :-ms-input-placeholder {
+  color: black;
+}
+.bottom-header input ::placeholder {
+  color: black;
+}
+
+.jb-image {
+  width: 100%;
+  height: 400px;
 }

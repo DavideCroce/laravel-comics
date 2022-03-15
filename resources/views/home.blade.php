@@ -11,13 +11,13 @@
 
 <body>
     <header>
-        <div class="topheader container">
+        <div class="topheader">
             <div class="row">
                 <div class="col-2">DC POWER VISA</div>
                 <div class="col-2">ADDITIONAL DC SITES</div>
             </div>
         </div>
-        <div class="bottomheader">
+        <div class="bottom-header">
             <figure>
                 <img src="{{ asset('images/dc-logo.png') }}" alt="">
             </figure>
@@ -40,8 +40,7 @@
 
     </header>
     <div class="jumbotron">
-        <h1>jumbotron</h1>
-        <img src="{{ asset('images/jumbotron.jpg') }}" alt="">
+        <div class="jb-image" style="background-image: url('{{ asset('images/jumbotron.jpg')}}');"></div>
     </div>
     <main>
         <div>CURRENT SERIES</div>
@@ -67,7 +66,7 @@
                     <h3>DIGITAL COMICS</h3>
                 </li>
                 <li>
-                    <img src="{{ asset('images/buy-comics-mechandise.png')}}" alt="">
+                    <img src="{{ asset('images/buy-comics-merchandise.png')}}" alt="">
                     <h3>DC MERCHANDISE</h3>
                 </li>
                 <li>
@@ -131,8 +130,20 @@
                 </ul>
             </div>
             <div class="cookies-settings">
-                <p>All Sites Content TM and c 2020 DC Enterteinment, unless otherwise <a href="#">noted here</a></p>
+                <p>All Sites Content TM and c 2020 DC Enterteinment, unless otherwise <a href="#">noted here</a>. All rights reserved. <a href="#"></a>Cookies Settings</p>
             </div>
+            <img src="{{ asset('images/dc-logo-bg.png') }}" alt="">
+        </div>
+        <div class="bottom-header">
+            <button>SIGN-UP NOW!</button>
+            <h4>FOLLOW US</h4>
+            <ul>
+                <li>FACEBOOK</li>
+                <li>TWITTER</li>
+                <li>YOUTUBE</li>
+                <li>PINTEREST</li>
+                <li>GEOGUESSER</li>
+            </ul>
         </div>
     </footer>
 </body>
