@@ -18,45 +18,45 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/characters', function () {
-    return view('Characters');
-})->name('Characters');
+    return view('characters');
+})->name('characters');
 
 Route::get('/comics', function () {
-    return view('Comics');
-})->name('Comics');
+    return view('comics');
+})->name('comics');
 
 Route::get('/movies', function () {
-    return view('Movies');
-})->name('Movies');
+    return view('movies');
+})->name('movies');
 
 Route::get('/tv', function () {
-    return view('TV');
-})->name('TV');
+    return view('tv');
+})->name('tv');
 
 Route::get('/games', function () {
-    return view('Games');
-})->name('Games');
+    return view('games');
+})->name('games');
 
 Route::get('/collectibles', function () {
-    return view('Collectibles');
-})->name('Collectibles');
+    return view('collectibles');
+})->name('collectibles');
 
 Route::get('/videos', function () {
-    return view('Videos');
-})->name('Videos');
+    return view('videos');
+})->name('videos');
 
 Route::get('/fans', function () {
-    return view('Fans');
-})->name('Fans');
+    return view('fans');
+})->name('fans');
 
 Route::get('/news', function () {
-    return view('News');
-})->name('News');
+    return view('news');
+})->name('news');
 
 Route::get('/shop', function () {
-    return view('Shop');
-})->name('Shop');
+    return view('shop');
+})->name('shop');
 
 Route::get('/visadc', function () {
-    return view('VisaDC');
-})->name('VisaDC');
+    return view('visadc');
+})->name('visadc');
