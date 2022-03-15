@@ -17,22 +17,24 @@
             </div>
         </div>
         <div class="bottomheader">
+            <img src="../../public/images/dc-logo.png" alt="">
             <ul class="navbar">
                 <li> <a href="{{ route('characters') }}">CHARACTERS</a> </li>
-                <li> <a href="">COMICS</a> </li>
-                <li> <a href="">MOVIES</a> </li>
-                <li> <a href="">TV</a> </li>
-                <li> <a href="">GAMES</a> </li>
-                <li> <a href="">COLLECTIBLES</a> </li>
-                <li> <a href="">VIDEOS</a> </li>
-                <li> <a href="">FANS</a> </li>
-                <li> <a href="">NEWS</a> </li>
-                <li> <a href="">SHOP</a> </li>
+                <li> <a href="{{ route('comics') }}">COMICS</a> </li>
+                <li> <a href="{{ route('movies') }}">MOVIES</a> </li>
+                <li> <a href="{{ route('tv') }}">TV</a> </li>
+                <li> <a href="{{ route('games') }}">GAMES</a> </li>
+                <li> <a href="{{ route('collectibles') }}">COLLECTIBLES</a> </li>
+                <li> <a href="{{ route('videos') }}">VIDEOS</a> </li>
+                <li> <a href="{{ route('fans') }}">FANS</a> </li>
+                <li> <a href="{{ route('news') }}">NEWS</a> </li>
+                <li> <a href="{{ route('shop') }}">SHOP</a> </li>
             </ul>
             <div class="searchbar">
                 <input type="text" placeholder="SEARCH">
             </div>
         </div>
+
     </header>
 </body>
 
