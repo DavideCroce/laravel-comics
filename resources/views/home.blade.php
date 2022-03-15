@@ -39,8 +39,27 @@
 
     </header>
     <div class="jumbotron">
+        <h1>jumbotron</h1>
         <img src="{{ asset('images/jumbotron.jpg') }}" alt="">
     </div>
+    <main>
+        <div>CURRENT SERIES</div>
+        <ul>
+            <li>ACTION COMICS</li>
+            <li>AMERICAN VAMPIRE 1976</li>
+            <li>ACQUAMAN</li>
+            <li>BATGIRL</li>
+            <li>BATMAN</li>
+            <li>BATMAN BEYOND</li>
+            <li>BATMAN/SUPERMAN</li>
+            <li>BATMAN/SUPERMAN ANNUAL</li>
+            <li>BATMAN: THE JOKER WARZONE</li>
+            <li>BATMAN: THREE JOKERS</li>
+            <li>BATMAN: WHITEKNIGHT PRESENTS: HARLEY QUINN</li>
+            <li>CATWOMAN</li>
+        </ul>
+        <button>LOAD MORE</button>
+    </main>
 </body>
 
 </html>
