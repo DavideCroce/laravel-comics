@@ -17,7 +17,9 @@
             </div>
         </div>
         <div class="bottomheader">
-            <img src="../../public/images/dc-logo.png" alt="">
+            <figure>
+                <img src="{{ asset('images/dc-logo.png') }}" alt="">
+            </figure>
             <ul class="navbar">
                 <li> <a href="{{ route('characters') }}">CHARACTERS</a> </li>
                 <li> <a href="{{ route('comics') }}">COMICS</a> </li>
@@ -36,6 +38,9 @@
         </div>
 
     </header>
+    <div class="jumbotron">
+        <img src="{{ asset('images/jumbotron.jpg') }}" alt="">
+    </div>
 </body>
 
 </html>
