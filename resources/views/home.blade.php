@@ -43,21 +43,11 @@
         <div class="jb-image" style="background-image: url('{{ asset('images/jumbotron.jpg')}}');"></div>
     </div>
     <main>
+        <div class="card-section">
+            <div class="card">
+            </div>
+        </div>
         <div>CURRENT SERIES</div>
-        <ul>
-            <li>ACTION COMICS</li>
-            <li>AMERICAN VAMPIRE 1976</li>
-            <li>ACQUAMAN</li>
-            <li>BATGIRL</li>
-            <li>BATMAN</li>
-            <li>BATMAN BEYOND</li>
-            <li>BATMAN/SUPERMAN</li>
-            <li>BATMAN/SUPERMAN ANNUAL</li>
-            <li>BATMAN: THE JOKER WARZONE</li>
-            <li>BATMAN: THREE JOKERS</li>
-            <li>BATMAN: WHITEKNIGHT PRESENTS: HARLEY QUINN</li>
-            <li>CATWOMAN</li>
-        </ul>
         <button>LOAD MORE</button>
         <div class="other-links">
             <ul>
