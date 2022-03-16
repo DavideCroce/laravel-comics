@@ -17,7 +17,7 @@
         <div class="jb-image" style="background-image: url('{{ asset('images/jumbotron.jpg')}}')"></div>
     </div>
     <main>
-        @include('includes.card-section')
+        @yield('content')
         @include('includes.other-links')
     </main>
     <footer>
