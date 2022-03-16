@@ -35,7 +35,7 @@
                 <li> <a href="{{ route('shop') }}">SHOP</a> </li>
             </ul>
             <div class="searchbar">
-                <input type="text" placeholder="SEARCH">
+                <input id="search" type="text" placeholder="SEARCH">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
@@ -178,17 +178,20 @@
                     </div>
                 </div>
                 <div class="dc-bg"></div>
-                <!-- <img src="{{ asset('images/dc-logo-bg.png') }}" alt=""> -->
             </div>
         </div>
         <div class="bottom-footer">
-            <button>SIGN-UP NOW!</button>
-            <h4>FOLLOW US</h4>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-pinterest-p"></i>
-            <i class="fa-solid fa-location-dot"></i>
+            <div class="dc-family">
+                <button>SIGN-UP NOW!</button>
+                <div class="socials">
+                    <h4>FOLLOW US</h4>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

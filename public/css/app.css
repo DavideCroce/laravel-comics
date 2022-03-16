@@ -51,31 +51,11 @@ body {
 .bottom-header figure img {
   height: 75px;
 }
-.bottom-header input {
+
+#search {
   padding: 5px 5px;
   border: none;
   border-bottom: 2px solid dodgerblue;
-}
-.bottom-header input :focus {
-  outline-width: 0;
-}
-.bottom-header input ::-moz-placeholder {
-  color: black;
-  text-align: end;
-  opacity: 1;
-  font-weight: bold;
-}
-.bottom-header input :-ms-input-placeholder {
-  color: black;
-  text-align: end;
-  opacity: 1;
-  font-weight: bold;
-}
-.bottom-header input ::placeholder {
-  color: black;
-  text-align: end;
-  opacity: 1;
-  font-weight: bold;
 }
 
 .current-series {
@@ -200,6 +180,44 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.bottom-footer {
+  background-color: #303030;
+  height: 100px;
+}
+.bottom-footer .dc-family {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.bottom-footer .dc-family .socials {
+  display: flex;
+  flex-direction: row;
+}
+.bottom-footer .dc-family .socials h4 {
+  font-size: 17px;
+  color: dodgerblue;
+  padding: 8px 12px;
+}
+.bottom-footer .dc-family .socials i {
+  font-size: 20px;
+  padding: 8px 12px;
+  margin: 0 10px;
+  color: #303030;
+  background-color: grey;
+  border-radius: 50%;
+}
+.bottom-footer .dc-family button {
+  background-color: #303030;
+  color: white;
+  border: 2px solid dodgerblue;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 25px;
 }
 
 .jb-image {
