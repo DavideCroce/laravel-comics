@@ -101,23 +101,23 @@
             <ul>
                 <li>
                     <img src="{{ asset('images/buy-comics-digital-comics.png')}}" alt="">
-                    <h3>DIGITAL COMICS</h3>
+                    <p>DIGITAL COMICS</p>
                 </li>
                 <li>
                     <img src="{{ asset('images/buy-comics-merchandise.png')}}" alt="">
-                    <h3>DC MERCHANDISE</h3>
+                    <p>DC MERCHANDISE</p>
                 </li>
                 <li>
                     <img src="{{ asset('images/buy-comics-subscriptions.png')}}" alt="">
-                    <h3>SUBSCRIPTION</h3>
+                    <p>SUBSCRIPTION</p>
                 </li>
                 <li>
                     <img src="{{ asset('images/buy-comics-shop-locator.png')}}" alt="">
-                    <h3>COMIC SHOP LOCATOR</h3>
+                    <p>COMIC SHOP LOCATOR</p>
                 </li>
                 <li>
-                    <img src="{{ asset('images/buy-dc-power-visa.svg')}}" alt="">
-                    <h3>DC POWER VISA</h3>
+                    <img class="visa" src="{{ asset('images/buy-dc-power-visa.svg')}}" alt="">
+                    <p>DC POWER VISA</p>
                 </li>
             </ul>
         </div>
