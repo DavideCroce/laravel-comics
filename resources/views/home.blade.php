@@ -40,15 +40,63 @@
 
     </header>
     <div class="jumbotron">
-        <div class="jb-image" style="background-image: url('{{ asset('images/jumbotron.jpg')}}');"></div>
+        <div class="jb-image" style="background-image: url('{{ asset('images/jumbotron.jpg')}}')"></div>
     </div>
     <main>
-        <div class="card-section">
-            <div class="card">
+        <div class="current-series">
+            <div class="card-section">
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
+                <div class="card">
+                    <div class="thumb"></div>
+                    <p>ACTION COMICS</p>
+                </div>
             </div>
+            <!-- <div>CURRENT SERIES</div> -->
+            <button>LOAD MORE</button>
         </div>
-        <div>CURRENT SERIES</div>
-        <button>LOAD MORE</button>
         <div class="other-links">
             <ul>
                 <li>
