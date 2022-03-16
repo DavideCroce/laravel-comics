@@ -85,6 +85,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+.current-series button {
+  font-size: 17px;
+  color: white;
+  padding: 10px 50px;
+  background-color: dodgerblue;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  border: none;
+}
 
 .card-section {
   max-width: 1200px;
@@ -106,16 +116,6 @@ body {
   margin-bottom: 10px;
   background-size: cover;
   background-image: url(https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX);
-}
-
-button {
-  font-size: 17px;
-  color: white;
-  padding: 10px 50px;
-  background-color: dodgerblue;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 60px;
 }
 
 .other-links {
@@ -144,6 +144,62 @@ button {
 }
 .other-links ul li .visa {
   width: 75px;
+}
+
+.top-footer {
+  background-image: url(https://i.imgur.com/sP9oKXV.jpg);
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.lists ul {
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 17px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+.lists .dc-comics-shop,
+.lists .dc,
+.lists .sites {
+  margin: 0;
+}
+
+.footer-links {
+  width: 40%;
+}
+.footer-links li, .footer-links p {
+  color: #a09f9f;
+}
+.footer-links h1 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.footer-links a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 450px;
+}
+
+.dc-bg {
+  background-image: url(https://i.imgur.com/2wWvs5F.png);
+  width: 45%;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .jb-image {

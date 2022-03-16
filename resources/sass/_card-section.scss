@@ -4,6 +4,16 @@
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    button{
+        font-size: 17px;
+        color: white;
+        padding: 10px 50px;
+        background-color: dodgerblue;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 60px;
+        border: none;
+    }
 }
 
 .card-section{
@@ -27,12 +37,4 @@
     background-image: url(https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX);
 }
 
-button{
-    font-size: 17px;
-    color: white;
-    padding: 10px 50px;
-    background-color: dodgerblue;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 60px;
-}
+
