@@ -129,6 +129,13 @@ body {
 .top-footer {
   background-image: url(https://i.imgur.com/sP9oKXV.jpg);
 }
+.top-footer .container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 450px;
+}
 
 .lists {
   display: flex;
@@ -152,7 +159,8 @@ body {
 .footer-links {
   width: 40%;
 }
-.footer-links li, .footer-links p {
+.footer-links li,
+.footer-links p {
   color: #a09f9f;
 }
 .footer-links h1 {
@@ -163,14 +171,6 @@ body {
 .footer-links a {
   color: dodgerblue;
   text-decoration: none;
-}
-
-.container {
-  max-width: 1200px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 450px;
 }
 
 .dc-bg {
@@ -225,7 +225,7 @@ body {
   height: 400px;
 }
 
-.dc-family {
+.dc-family-welcome {
   background-image: url(https://images2.alphacoders.com/440/thumb-1920-440969.jpg);
   background-size: cover;
   background-position: top;
@@ -235,7 +235,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.dc-family h1 {
+.dc-family-welcome h1 {
   font-size: 50px;
   background-color: dodgerblue;
   color: white;
@@ -246,28 +246,159 @@ body {
   margin-top: 300px;
 }
 
-.thumb-part {
+.detail-i {
   height: 100px;
   width: 100%;
   background-color: dodgerblue;
+  position: relative;
 }
-.thumb-part .comic-thumb {
+.detail-i .comic {
   border: 1px solid white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 200px;
-  height: 400px;
+  width: 195px;
+  height: 290px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 15px;
 }
-.thumb-part .comic-thumb p {
+.detail-i .comic p {
   background-color: dodgerblue;
-  font-size: 10px;
+  font-size: 12px;
   color: white;
+  padding: 3px 0;
 }
-.thumb-part .comic-thumb .type {
+.detail-i .comic .type {
   width: 50%;
+  text-align: center;
+  margin: 0;
 }
-.thumb-part .comic-thumb .view {
+.detail-i .comic .view {
   width: 100%;
   text-align: center;
+}
+
+.detail-c {
+  max-width: 1200px;
+}
+
+.container {
+  max-width: 1200px;
+}
+.container .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-p .col-2 {
+  width: 16.6666666667%;
+}
+.detail-p .col-3 {
+  width: 25%;
+}
+.detail-p .col-4 {
+  width: 33.3333333333%;
+}
+.detail-p .col-5 {
+  width: 41.6666666667%;
+}
+.detail-p .col-6 {
+  width: 66.6666666667%;
+}
+.detail-p .col-7 {
+  width: 58.3333333333%;
+}
+.detail-p .col-8 {
+  width: 66.6666666667%;
+}
+.detail-p .col-9 {
+  width: 75%;
+}
+.detail-p hr {
+  opacity: 0.5;
+}
+
+.comic-description {
+  padding: 80px 0;
+}
+
+.specs {
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+.specs .t-and-s {
+  font-size: 20px;
+  color: darkblue;
+  padding-bottom: 20px;
+}
+.specs .internal-container {
+  width: 100%;
+}
+.specs .specs-column {
+  margin-left: 0;
+}
+.specs .specs-column .series a {
+  text-decoration: none;
+  color: #61afc9;
+}
+.specs .specs-column .col-4 {
+  margin: 0;
+}
+.specs .row {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links {
+  border-right: solid 1px #c5c5c5;
+  border-left: solid 1px #c5c5c5;
+  padding: 10px 0;
+}
+.links .col-6 {
+  color: #c5c5c5;
+  font-weight: bold;
+}
+
+.comic-detail h1 {
+  text-transform: uppercase;
+  color: darkblue;
+  padding: 15px 0;
+}
+.comic-detail .aviable {
+  background-color: #55ba59;
+}
+.comic-detail .aviable .p-and-a .row {
+  display: flex;
+  justify-content: space-between;
+}
+.comic-detail .aviable .p-and-a .row .col-4 {
+  margin: 0;
+}
+.comic-detail .aviable h6 {
+  font-size: 15px;
+  color: lightgreen;
+}
+.comic-detail .aviable .col-3,
+.comic-detail .aviable .col-9 {
+  border: green 1px solid;
+  padding: 17px;
+}
+.comic-detail .comic-desc {
+  padding-top: 20px;
+}
+.comic-detail .check {
+  color: white;
+}
+.comic-detail .check h6 {
+  color: white;
+}
+
+.adv-sec h5 {
+  font-size: 20px;
+  color: grey;
+  padding: 20px 0;
+  text-align: right;
 }

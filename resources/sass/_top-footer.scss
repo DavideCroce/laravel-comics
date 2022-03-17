@@ -1,13 +1,20 @@
-.top-footer{
+.top-footer {
     background-image: url(https://i.imgur.com/sP9oKXV.jpg);
+    .container {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 450px;
+    }
 }
 
-.lists{
+.lists {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
     padding-top: 20px;
-    ul{
+    ul {
         list-style-type: none;
         font-size: 12px;
         line-height: 17px;
@@ -16,36 +23,29 @@
     }
     .dc-comics-shop,
     .dc,
-    .sites{
+    .sites {
         margin: 0;
     }
 }
 
-.footer-links{
+.footer-links {
     width: 40%;
-    li, p{
+    li,
+    p {
         color: rgb(160, 159, 159);
     }
-    h1{
+    h1 {
         color: white;
         font-size: 20px;
         padding-bottom: 15px;
     }
-    a{
+    a {
         color: dodgerblue;
         text-decoration: none;
     }
 }
 
-.container{
-    max-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 450px;
-}
-
-.dc-bg{
+.dc-bg {
     background-image: url(https://i.imgur.com/2wWvs5F.png);
     width: 45%;
     height: 450px;
