@@ -4,13 +4,13 @@
 @section('content')
     <div class="current-series">
         <div class="card-section">
-            @foreach ($comics as $comic)
-                <a href="">
-                    <div class="card">
+            @foreach ($comics as $index => $comic)
+                <div class="card">
+                    <a href="{{ route('comic', ['id' => $index]) }}">
                         <div class="thumb" style="background-image: url({{ $comic['thumb'] }})"></div>
-                        <p>{{ $comic['series'] }}</p>
-                    </div>
-                </a>
+                    </a>
+                    <p>{{ $comic['series'] }}</p>
+                </div>
             @endforeach
         </div>
         <!-- <div>CURRENT SERIES</div> -->
