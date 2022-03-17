@@ -1,0 +1,25 @@
+.thumb-part {
+    height: 100px;
+    width: 100%;
+    background-color: dodgerblue;
+    .comic-thumb {
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 200px;
+        height: 400px;
+        p {
+            background-color: dodgerblue;
+            font-size: 10px;
+            color: white;
+        }
+        .type {
+            width: 50%;
+        }
+        .view {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

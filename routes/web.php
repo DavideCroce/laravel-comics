@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts.main');
-})->name('main');
+    return view('home');
+})->name('home');
 
 Route::get('/characters', function () {
     return view('characters');
@@ -69,3 +69,7 @@ Route::get('/shop', function () {
 Route::get('/visadc', function () {
     return view('visadc');
 })->name('visadc');
+
+Route::get('/home', function () {
+    return view('home');
+})->name('home');

@@ -1,0 +1,20 @@
+.dc-family {
+    background-image: url(https://images2.alphacoders.com/440/thumb-1920-440969.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 50px;
+        background-color: dodgerblue;
+        color: white;
+        border: 3px solid white;
+        max-width: 1200px;
+        text-align: center;
+        padding: 20px;
+        margin-top: 300px;
+    }
+}
