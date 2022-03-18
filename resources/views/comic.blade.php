@@ -53,14 +53,22 @@
                             <div class="internal-container">
                                 <div class="row">
                                     <div class="col-2">Art by:</div>
-                                    <div class="col-8"></div>
+                                    <div class="col-8 artists">
+                                        @foreach ($comic['artists'] as $artist)
+                                            <a href="#">{{ $artist }}</a>,
+                                        @endforeach
+                                    </div>
                                 </div>
                             </div>
                             <hr>
                             <div class="internal-container">
                                 <div class="row">
                                     <div class="col-2">Written by:</div>
-                                    <div class="col-8"></div>
+                                    <div class="col-8 writers">
+                                        @foreach ($comic['writers'] as $writer)
+                                            <a href="#">{{ $writer }}</a>,
+                                        @endforeach
+                                    </div>
                                 </div>
                             </div>
                             <hr>
